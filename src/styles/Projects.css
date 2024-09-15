@@ -1,0 +1,83 @@
+.projects {
+    padding: 50px 20px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: rgb(206, 221, 231);
+    display: flex;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card img {
+    width: 256px;
+    height: 256px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .project-content
+  {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .project-content button {
+    padding: 10px 20px;
+    background-color: hsl(210, 24%, 42%);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .project-content button:hover {
+    background-color: hsl(211, 23%, 29%);
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-overlay img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+  }
+  .modal-content button {
+    padding: 10px 20px;
+    background-color: hsl(210, 24%, 42%);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal-content button:hover {
+    background-color: hsl(211, 23%, 29%);
+  }
+  
